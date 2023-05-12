@@ -1,6 +1,6 @@
 # driver-drowsiness-detection
 
-<h2> A system which alarms the driver as soon as it detects that the driver is becoming drowsy to prevent any accident. </h2>
+<p> A system which alarms the driver as soon as it detects that the driver is becoming drowsy to prevent any accident. </p>
 
 # Quick Start 🚀
 
@@ -23,8 +23,12 @@ git clone https://github.com/adityajai25/driver-drowsiness-detection.git
     <p>We have used the downloaded the dataset from Kaggle. The dataset is been attached in the github, and you can download the dataset from <a href =https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new">https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new </a> as well.</p>
 
 <h2>Execution : </h2>
-    <p>To start the project, you need to open a command prompt, go to the directory where our main file main.py” exists. Run the script with this command.
+    <p>To start the project, you need to open a command prompt, go to the directory where our main file main.py” exists. </p> 
 
+ ###  Run the script with this command.
+
+``` 
 python main.py
+```
 
 It may take a few seconds to open the webcam and start detection.</p>
