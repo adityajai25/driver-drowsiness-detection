@@ -85,12 +85,10 @@ while(True):
         score=0   
     cv2.putText(frame,'Score:'+str(score),(100,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
     if(score>15):
-        #person is feeling sleepy so we beep the alarm
         cv2.imwrite(os.path.join(path,'image.jpg'),frame)
         try:
             sound.play()
-            
-        except:  # isplaying = False
+        except:  
             pass
         if(thicc<16):
             thicc= thicc+2
