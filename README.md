@@ -1,91 +1,107 @@
-# driver-drowsiness-detection
 
+# Driver Drowsiness Detection
 
 A system that alarms the driver as soon as it detects that the driver is becoming drowsy to prevent any accidents.
 
+
+
 ## Quick Start 🚀
 
-### Clone this Repository
+### Clone the Repository
 
 ```sh
 git clone https://github.com/adityajai25/driver-drowsiness-detection.git
-Dataset
-We used a dataset downloaded from Kaggle. The dataset is included in the repository, and you can also download it from this Kaggle link.
+```
+Then 
 
-Creating a Virtual Environment
-Windows
-Open Command Prompt:
+```sh
+cd driver-drowsiness-detection
+```
 
-Press Win + R, type cmd, and press Enter.
-Navigate to Your Project Directory:
 
-sh
-Copy code
-cd path\to\your\project
+## Dataset
+
+We used a dataset downloaded from Kaggle.
+## Creating Virtual Environment
+
+Using a virtual environment isolates dependencies, manages library versions, keeps the global Python environment clean, and ensures consistent setups.
+
+### On Windows
+
+#### Creating a virtual environment:
+
+Open Command Prompt and navigate to the project directory
+
+```sh
+cd project/directory/
+
+```
 Create a Virtual Environment:
-
-sh
-Copy code
+```sh
 python -m venv env
-Activate the Virtual Environment:
+```
+To Activate the Virtual Environment:
 
-sh
-Copy code
-env\Scripts\activate
-macOS
-Open Terminal:
+```sh
+.\env\Scripts\activate
+```
 
-Press Cmd + Space, type Terminal, and press Enter.
-Navigate to Your Project Directory:
+### On mac/Linux
 
-sh
-Copy code
-cd /path/to/your/project
+#### Creating a virtual environment:
+Open terminal and navigate to the project directory
+
+```sh
+cd project/directory/
+
+```
 Create a Virtual Environment:
+```sh
+python -m venv env
+```
+To Activate the Virtual Environment:
 
-sh
-Copy code
-python3 -m venv env
-Activate the Virtual Environment:
-
-sh
-Copy code
+```sh
 source env/bin/activate
-Installing Required Packages
+```
+
+
+## Installing Required Packages
+
 Once the virtual environment is activated, install the required packages using the following commands:
 
-Install Pygame:
+#### 1. Install pygame
 
-sh
-Copy code
+```sh
 pip install pygame==2.4.0
-Install OpenCV-Python:
+```
+#### 2. Install openCV-Python
 
-sh
-Copy code
+```sh
 pip install opencv-python==4.6.0.66
-Install NumPy:
+```
+#### 3. Install numpy
 
-sh
-Copy code
+```sh
 pip install numpy==1.23.0
-Install Keras:
+```
+#### 4. Install keras
 
-sh
-Copy code
+```sh
 pip install keras==2.12.0
-Install TensorFlow:
+```
+#### 5. Install tensorflow
 
-sh
-Copy code
+```sh
 pip install tensorflow==2.13.0
-Execution
-To start the project, navigate to the directory where the main file main.py is located, and run the script with the following command:
-
-sh
-Copy code
-python main.py
+```
 
 
-It may take a few seconds to open the webcam and start detection.
+## Execution
+After installing the packages required, the project can be executed using the following command.
 
+```sh
+python main.py 
+```
+
+This will initiate the application, and it may take a few moments to activate the webcam and begin detection.
